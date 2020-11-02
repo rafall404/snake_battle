@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Snake-Battle</string>
+    <string name="hello">Hello !</string>
+    <string name="next">next</string>
+
+    <string name="single_player">Single Player</string>
+    <string name="create_lobby">Create Lobby</string>
+    <string name="join_lobby">Join Lobby</string>
+    <string name="share">Share</string>
+    <string name="score_board">Score Board</string>
+
+
+    <string name="map_size">Map Size</string>
+    <string name="game_speed">Game Speed</string>
+
+    <string name="earthworm">Earthworm</string>
+    <string name="nickname">nickname</string>
+
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+
+    <string name="slow">Slow</string>
+    <string name="normal">Normal</string>
+    <string name="fast">Fast</string>
+    <string name="set">Set</string>
+
+
+    <string name="iland">Iland size</string>
+
+
+</resources>
