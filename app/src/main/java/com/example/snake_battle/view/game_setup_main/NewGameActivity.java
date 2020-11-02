@@ -7,6 +7,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
@@ -50,9 +51,7 @@ public class NewGameActivity extends AppCompatActivity {
 
         iland = findViewById(R.id.ilandViewImage);
         // get scale image
-
         sizeOfMap = findViewById(R.id.radioGroup);
-
         Bundle bundle = getIntent().getExtras();
 
         if (bundle != null && bundle.containsKey(GameTypeActivity.gameType)) {
@@ -116,6 +115,12 @@ public class NewGameActivity extends AppCompatActivity {
             // create lobby stuff
 
         }
+    }
+
+    //menu
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
     }
 
     @Override

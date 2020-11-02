@@ -56,17 +56,13 @@ public class NicknameMainActivity extends AppCompatActivity {
 
     }
 
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
     public void addNickname(){
         viewModel.setNickname(nicknameInput.getText().toString());
     }
 
-    public void deleteNickname(View v){
-        viewModel.deleteNickname();
+    // on clicks
+    public void onSetClick(View view) {
+        addNickname();
     }
 
     public void onNextButton(View view) {
@@ -74,8 +70,6 @@ public class NicknameMainActivity extends AppCompatActivity {
         String toastMessage = null;
 
         Context context = getApplicationContext();
-
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA "+nick);
 
         if(nick.equals("")){
             toastMessage = "you need to set a nickname";
@@ -91,6 +85,12 @@ public class NicknameMainActivity extends AppCompatActivity {
             startActivity(intent);
         }
 
+    }
+
+    // menu
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
     }
 
     @Override
@@ -117,7 +117,5 @@ public class NicknameMainActivity extends AppCompatActivity {
         }
     }
 
-    public void onSetClick(View view) {
-        addNickname();
-    }
+
 }
