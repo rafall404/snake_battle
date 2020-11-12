@@ -8,6 +8,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,11 +19,7 @@ import android.widget.Toast;
 
 import com.example.snake_battle.R;
 import com.example.snake_battle.view.scoreboard.ScoreBoardActivity;
-import com.example.snake_battle.viewModel.NicknameVM;
-
-import java.sql.Time;
-import java.util.Timer;
-import java.util.TimerTask;
+import com.example.snake_battle.viewModel.GameSetupVM;
 
 public class NicknameMainActivity extends AppCompatActivity {
 
@@ -31,7 +28,9 @@ public class NicknameMainActivity extends AppCompatActivity {
 
     Toolbar toolbar;
 
-    NicknameVM viewModel;
+    GameSetupVM viewModel;
+
+    SharedPreferences preferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,8 +43,7 @@ public class NicknameMainActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(toolbar);
         // ViewModel
-        viewModel = new ViewModelProvider(this).get(NicknameVM.class);
-
+        viewModel = GameSetupVM.getInstance();
         viewModel.getNickname().observe(this, new Observer<String>() {
             @Override
             public void onChanged(String s) {
@@ -53,8 +51,24 @@ public class NicknameMainActivity extends AppCompatActivity {
             }
         });
 
-
+        preferences = getSharedPreferences("prefs", MODE_PRIVATE);
     }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString("nickname", viewModel.getNickname().getValue());
+        editor.apply();
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        String savedNickname = preferences.getString("nickname", " ");
+        viewModel.setNickname(savedNickname);
+        nicknameHello.setText(savedNickname);
+        nicknameInput.setText(savedNickname);
+    }
+
 
     public void addNickname(){
         viewModel.setNickname(nicknameInput.getText().toString());
@@ -66,7 +80,7 @@ public class NicknameMainActivity extends AppCompatActivity {
     }
 
     public void onNextButton(View view) {
-        String nick = viewModel.getNickname().getValue().toString();
+        String nick = viewModel.getNickname().getValue();
         String toastMessage = null;
 
         Context context = getApplicationContext();

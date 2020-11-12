@@ -3,6 +3,8 @@ package com.example.snake_battle.view.game_setup_main;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.lifecycle.ViewModelProviders;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,77 +13,55 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.example.snake_battle.R;
-import com.example.snake_battle.view.game.InGameActivity;
+import com.example.snake_battle.view.inGame.InGameActivity;
 import com.example.snake_battle.view.scoreboard.ScoreBoardActivity;
+import com.example.snake_battle.viewModel.GameSetupVM;
 
 public class NewGameActivity extends AppCompatActivity {
+    public static final String EXTRA_MAP_SIZE = "mapSize";
+    public static final String EXTRA_GAME_SPEED = "gameSpeed";
 
-    private String gameType;
-    private int mapSize = 0;
-    /*
-      -1=small
-      0 =medium
-      1 =large
-      */
-    private int gameSpeed = 0;
-    /*
-      -1=slow
-      0 =normal
-      1 =fast
-      */
     private ImageView iland;
+    private Toolbar toolbar;
 
-    private RadioGroup sizeOfMap;
-
-    Toolbar toolbar;
-
+    private GameSetupVM viewModel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.new_game);
 
+        iland = findViewById(R.id.ilandViewImage);
+        // menu
         toolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(toolbar);
-
-
-        iland = findViewById(R.id.ilandViewImage);
-        // get scale image
-        sizeOfMap = findViewById(R.id.radioGroup);
-        Bundle bundle = getIntent().getExtras();
-
-        if (bundle != null && bundle.containsKey(GameTypeActivity.gameType)) {
-            String message = bundle.getString(GameTypeActivity.gameType);
-            gameType = message;
-        }
+        //view-model
+        viewModel = GameSetupVM.getInstance();
     }
 
     public void onRadioButtonClickedMapSize(View view) {
 
         switch (view.getId()) {
             case R.id.radio_small:
-                mapSize = -1;
-                // here resize iland image view
+                viewModel.setMapSize(15); // usage of scae in view.inGame.BoardView
+
                 iland.setScaleX(0.5f);
                 iland.setScaleY(0.5f);
                 break;
-
             case R.id.radio_medium:
-                mapSize = 0;
+                viewModel.setMapSize(10);
+
                 iland.setScaleX(1);
                 iland.setScaleY(1);
-
                 break;
-
             case R.id.radio_large:
-                mapSize = 1;
+                viewModel.setMapSize(5);
+
                 iland.setScaleX(1.5f);
                 iland.setScaleY(1.5f);
-
                 break;
         }
 
@@ -90,27 +70,29 @@ public class NewGameActivity extends AppCompatActivity {
     public void onRadioButtonClickedGameSpeed(View view) {
         switch ((view.getId())) {
             case R.id.radioSlow:
-                gameSpeed = -1;
+                viewModel.setGameSpeed(-1);
                 break;
 
             case R.id.radioNormal:
-                gameSpeed = 0;
+                viewModel.setGameSpeed(0);
                 break;
 
             case R.id.radioFast:
-                gameSpeed = 1;
+                viewModel.setGameSpeed(1);
                 break;
         }
 
     }
 
     public void onNextButton(View view) {
-        if (gameType.equals("singlePlayer")) {
-            Context context = getApplicationContext();
-            Class destination = InGameActivity.class;
+        if (viewModel.getGameType().equals("singlePlayer")) {
+            Intent intent = new Intent(getApplicationContext(), InGameActivity.class);
 
-            Intent intent = new Intent(context, destination);
-            startActivity(intent);
+            intent.putExtra(EXTRA_MAP_SIZE, viewModel.getMapSize());
+            intent.putExtra(EXTRA_GAME_SPEED, viewModel.getGameSpeed());
+
+            startActivity(intent); // --------------- need to pass speed and mapSize to InGameActivity - getters in view model needed
+
         } else {
             // create lobby stuff
 

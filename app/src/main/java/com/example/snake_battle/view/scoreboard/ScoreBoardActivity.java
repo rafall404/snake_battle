@@ -9,20 +9,24 @@ import android.view.MenuItem;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.snake_battle.R;
 import com.example.snake_battle.model.domainModel.Score;
+import com.example.snake_battle.viewModel.ScoreBoardVM;
 import com.google.android.material.snackbar.Snackbar;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class ScoreBoardActivity extends AppCompatActivity {
 
     Toolbar toolbar;
     RecyclerView recyclerView;
 
+    ScoreBoardVM viewModel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,22 +35,26 @@ public class ScoreBoardActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(toolbar);
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        // recycler view
         recyclerView = findViewById(R.id.rv);
         recyclerView.hasFixedSize();
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        ArrayList<Score> scoreBoard = new ArrayList<>();
+        // view-model
+        viewModel = new ViewModelProvider(this).get(ScoreBoardVM.class);
+        viewModel.getAllScores().observe(this, new Observer<List<Score>>() {
+            @Override
+            public void onChanged(List<Score> scores) {
+                ItemsAdapter adapter = new ItemsAdapter(scores);
+                recyclerView.setAdapter(adapter);
+            }
+        });
 
-        for (int i = 0; i < 50; i++) {
-
-            scoreBoard.add(new Score(""+i, "Rafal "+i));
-        }
-
-        ItemsAdapter adapter = new ItemsAdapter(scoreBoard);
+        ItemsAdapter adapter = new ItemsAdapter(viewModel.getAllScores().getValue());
         recyclerView.setAdapter(adapter);
+
     }
 
 

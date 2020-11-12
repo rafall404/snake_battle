@@ -31,9 +31,9 @@
 21        <activity android:name="com.example.snake_battle.view.scoreboard.ScoreBoardActivity" />
 21-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:12:9-72
 21-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:12:19-69
-22        <activity android:name="com.example.snake_battle.view.game.InGameActivity" />
-22-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:13:9-62
-22-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:13:19-59
+22        <activity android:name="com.example.snake_battle.view.inGame.InGameActivity" />
+22-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:13:9-64
+22-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:13:19-61
 23        <activity
 23-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:14:9-16:83
 24            android:name="com.example.snake_battle.view.game_setup_main.NewGameActivity"

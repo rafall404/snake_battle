@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".view.scoreboard.ScoreBoardActivity" />
-        <activity android:name=".view.game.InGameActivity" />
+        <activity android:name=".view.inGame.InGameActivity" />
         <activity
             android:name=".view.game_setup_main.NewGameActivity"
             android:parentActivityName=".view.game_setup_main.GameTypeActivity" />

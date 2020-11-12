@@ -20,7 +20,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.snake_battle.view.scoreboard.ScoreBoardActivity" />
-        <activity android:name="com.example.snake_battle.view.game.InGameActivity" />
+        <activity android:name="com.example.snake_battle.view.inGame.InGameActivity" />
         <activity
             android:name="com.example.snake_battle.view.game_setup_main.NewGameActivity"
             android:parentActivityName="com.example.snake_battle.view.game_setup_main.GameTypeActivity" />

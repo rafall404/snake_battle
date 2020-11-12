@@ -85,10 +85,10 @@ activity#com.example.snake_battle.view.scoreboard.ScoreBoardActivity
 ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:12:9-72
 	android:name
 		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:12:19-69
-activity#com.example.snake_battle.view.game.InGameActivity
-ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:13:9-62
+activity#com.example.snake_battle.view.inGame.InGameActivity
+ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:13:9-64
 	android:name
-		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:13:19-59
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:13:19-61
 activity#com.example.snake_battle.view.game_setup_main.NewGameActivity
 ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:14:9-16:83
 	android:parentActivityName
