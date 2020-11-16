@@ -4,7 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,6 +19,7 @@ import android.widget.Toast;
 import com.example.snake_battle.R;
 import com.example.snake_battle.view.scoreboard.ScoreBoardActivity;
 import com.example.snake_battle.viewModel.GameSetupVM;
+import com.google.android.material.snackbar.Snackbar;
 
 public class NicknameMainActivity extends AppCompatActivity {
 
@@ -52,7 +52,9 @@ public class NicknameMainActivity extends AppCompatActivity {
         });
 
         preferences = getSharedPreferences("prefs", MODE_PRIVATE);
+
     }
+
     @Override
     protected void onPause() {
         super.onPause();
@@ -77,6 +79,8 @@ public class NicknameMainActivity extends AppCompatActivity {
     // on clicks
     public void onSetClick(View view) {
         addNickname();
+        Toast toast = Toast.makeText(getApplicationContext(), viewModel.getJoke().getContent(), Toast.LENGTH_LONG);
+        toast.show();
     }
 
     public void onNextButton(View view) {

@@ -1,11 +1,23 @@
 package com.example.snake_battle.viewModel;
 
+import android.util.Log;
+
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.example.snake_battle.model.domainModel.Joke;
+import com.example.snake_battle.nettworking.JokeResponse;
+import com.example.snake_battle.nettworking.JokesApi;
+import com.example.snake_battle.nettworking.ServiceGenerator;
+
+import java.io.IOException;
 import java.util.Timer;
 import java.util.TimerTask;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class GameSetupVM extends ViewModel {
 
@@ -27,16 +39,19 @@ public class GameSetupVM extends ViewModel {
       1 =fast
       */
 
+    private Joke joke;
+
     private GameSetupVM(){
         nickname =  new MutableLiveData<>();
         nickname.setValue("");
+        // REST GET request
+        requestJoke();
     }
 
     public static GameSetupVM getInstance(){
         if(instance == null){
             instance = new GameSetupVM();
         }
-
         return instance;
     }
 
@@ -77,4 +92,34 @@ public class GameSetupVM extends ViewModel {
     public void setGameType(String gameType) {
         this.gameType = gameType;
     }
+
+    public void requestJoke() {
+        JokesApi jokesApi = ServiceGenerator.getJokesApi();
+        Call<JokeResponse> call = jokesApi.getJoke();
+
+        call.enqueue(new Callback<JokeResponse>() {
+            @Override
+            public void onResponse(Call<JokeResponse> call, Response<JokeResponse> response) {
+                if (response.code() == 200) {
+                    System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"+response.body().getJoke());
+
+                    joke = response.body().getJoke();
+                    System.out.println(joke.getContent());
+                }
+            }
+            @Override
+            public void onFailure(Call<JokeResponse> call, Throwable t) {
+                Log.i("Retrofit", "Something went wrong :(");
+                System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+
+                throw new RuntimeException(t);
+            }
+        });
+    }
+
+    public Joke getJoke() {
+        requestJoke();
+        return joke;
+    }
+
 }
