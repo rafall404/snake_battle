@@ -11,23 +11,6 @@ public class SegmentOfSnake {
 
     }
 
-    public void move(int dir) {
-        switch(dir) {
-            case 0:
-                point.transform(point.x, point.y +1);
-                break;
-            case 1:
-                break;
-            case 2:
-                break;
-            case 3:
-                break;
-            default:
-                throw new RuntimeException("move method exception - out of switch cases");
-        }
-    }
-
-
     public Point getPoint() {
         return point;
     }

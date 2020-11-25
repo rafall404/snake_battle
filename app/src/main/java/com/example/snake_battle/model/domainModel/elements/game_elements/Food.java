@@ -9,6 +9,7 @@ public class Food implements GameElement {
     private Point point;
 
     private int foodType;
+    // 1=goodFood , -1=badFood
 
     public Food(int x, int y, int foodType) {
         point = new Point(x, y);

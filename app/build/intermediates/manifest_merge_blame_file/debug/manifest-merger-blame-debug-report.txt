@@ -11,15 +11,15 @@
 9-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:5:5-67
 11-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:7:5-29:19
+13-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:7:5-34:19
 14        android:allowBackup="true"
 14-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
+15-->[androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ce7284272958fc997430369a61fd8f68\core-1.3.1\AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
 17-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:9:9-43
@@ -29,52 +29,117 @@
 19-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
 20-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme" >
-22-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:13:9-40
-23        <activity android:name="com.example.snake_battle.view.scoreboard.ScoreBoardActivity" />
-23-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:14:9-72
-23-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:14:19-69
-24        <activity android:name="com.example.snake_battle.view.inGame.InGameActivity" />
-24-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:15:9-64
-24-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:15:19-61
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity
+22-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:14:9-16:25
+23            android:name="com.example.snake_battle.view.account.RegisterActivity"
+23-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:14:19-64
+24            android:parentActivityName="com.example.snake_battle.view.game_setup_main.NicknameMainActivity" />
+24-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:15:13-84
 25        <activity
-25-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:16:9-18:83
-26            android:name="com.example.snake_battle.view.game_setup_main.NewGameActivity"
-26-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:17:13-65
-27            android:parentActivityName="com.example.snake_battle.view.game_setup_main.GameTypeActivity" />
-27-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:18:13-80
-28        <activity
-28-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:19:9-21:87
-29            android:name="com.example.snake_battle.view.game_setup_main.GameTypeActivity"
-29-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:20:13-66
-30            android:parentActivityName="com.example.snake_battle.view.game_setup_main.NicknameMainActivity" />
-30-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:21:13-84
-31        <activity android:name="com.example.snake_battle.view.game_setup_main.NicknameMainActivity" >
-31-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:22:9-28:20
-31-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:22:19-76
-32            <intent-filter>
-32-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:23:13-27:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:24:17-69
-33-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:24:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:26:17-77
-35-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:26:27-74
-36            </intent-filter>
-37        </activity>
+25-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:17:9-19:87
+26            android:name="com.example.snake_battle.view.scoreboard.ScoreBoardActivity"
+26-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:18:13-63
+27            android:parentActivityName="com.example.snake_battle.view.game_setup_main.NicknameMainActivity" />
+27-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:19:13-84
+28        <activity android:name="com.example.snake_battle.view.inGame.InGameActivity" />
+28-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:20:9-64
+28-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:20:19-61
+29        <activity
+29-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:21:9-23:83
+30            android:name="com.example.snake_battle.view.game_setup_main.NewGameActivity"
+30-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:22:13-65
+31            android:parentActivityName="com.example.snake_battle.view.game_setup_main.GameTypeActivity" />
+31-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:23:13-80
+32        <activity
+32-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:24:9-26:87
+33            android:name="com.example.snake_battle.view.game_setup_main.GameTypeActivity"
+33-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:25:13-66
+34            android:parentActivityName="com.example.snake_battle.view.game_setup_main.NicknameMainActivity" />
+34-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:26:13-84
+35        <activity android:name="com.example.snake_battle.view.game_setup_main.NicknameMainActivity" >
+35-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:27:9-33:20
+35-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:27:19-76
+36            <intent-filter>
+36-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:28:13-32:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:29:17-69
+37-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:29:25-66
 38
-39        <provider
-39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-40            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-41            android:authorities="com.example.snake_battle.lifecycle-process"
-41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-42            android:exported="false"
-42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-43            android:multiprocess="true" />
-43-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-44    </application>
-45
-46</manifest>
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:31:17-77
+39-->C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:31:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+43            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+43-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+44            android:excludeFromRecents="true"
+44-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+45            android:exported="true"
+45-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+46            android:launchMode="singleTask"
+46-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+47            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+47-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+48-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+49
+50        <service
+50-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+51            android:name="com.google.firebase.components.ComponentDiscoveryService"
+51-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+52            android:directBootAware="true"
+52-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+53            android:exported="false" >
+53-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+54            <meta-data
+54-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+55                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+55-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+57        </service>
+58
+59        <activity
+59-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\91165b1d72c03395bb8790034f3dfc53\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+60-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\91165b1d72c03395bb8790034f3dfc53\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\91165b1d72c03395bb8790034f3dfc53\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\91165b1d72c03395bb8790034f3dfc53\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+63
+64        <provider
+64-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+65            android:name="com.google.firebase.provider.FirebaseInitProvider"
+65-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+66            android:authorities="com.example.snake_battle.firebaseinitprovider"
+66-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+67            android:exported="false"
+67-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+68            android:initOrder="100" />
+68-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2de6736e958914630b801c473976dadb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2de6736e958914630b801c473976dadb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2de6736e958914630b801c473976dadb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+73
+74        <provider
+74-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+75            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+75-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+76            android:authorities="com.example.snake_battle.lifecycle-process"
+76-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+77            android:exported="false"
+77-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+78            android:multiprocess="true" />
+78-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+79    </application>
+80
+81</manifest>

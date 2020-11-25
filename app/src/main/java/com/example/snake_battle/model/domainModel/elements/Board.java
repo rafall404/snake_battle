@@ -11,8 +11,6 @@ import java.util.List;
 public class Board {
 
     private int id;
-    private int height;
-    private int width;
 
     private LinkedList<GameElement> elements;
     private CollisionDetector cdetector;
@@ -51,17 +49,17 @@ public class Board {
     public void moveTo(Snake s, Point loc) {
         GameElement el = cdetector.checkCollision(this, loc);
         if(el instanceof Snake){
-            // dwanadziesienc.mp3
+            // twoOutOfTen.mp3
         } else if(el instanceof Food) {
             s.expand();
         } else {
-            // kon zwalony
+            // keep going
         }
     }
 
-    public void changeSnakeDirection( int dir){
+    public void changeSnakeDirection( int dir){ // for multiplayer id of snake will be needed
         for (GameElement e: elements) {
-            if(e instanceof Snake){// Later need to be changed to id or sth for multipalyer
+            if(e instanceof Snake){
                 e.changeHeadDirection(dir);
             }
         }

@@ -1,78 +1,98 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-31:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\86e1e5d883ec66c1063a0d9a82a27792\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\fee048776b4040c0a73e83e4303a6cff\material-1.2.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\bf96d2b5a86ecd602a621e7e96856420\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\db95b54e52e838ca6dc927129ccd5b36\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7c0677be8011741026309ef690a9f4db\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ee9b51f71825564f346013ea1d4d0318\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4c1ade53cc4b20d7bc631ac17d3bfca4\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\e491b027066b482b439af311917e1339\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\0b3eeae4c45c19949f040ae2f0516871\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\32488318cfc756fa0f6ae91e625fa530\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\0878a65179abd6a1b5016c6981bce614\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\65b26ec11e574f5d68d3fe93c8217bcb\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\65d4929e050083ea965101b359717f6c\fragment-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\6e57c04e98c372fcd8878b95a3d5645d\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ebc8011c39d26c440b76466a9b971345\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\d1ea25f3382273eed14315b543469208\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2118a7099009bdd29f0289728ee82c0d\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2d2a73585fe4f95076865d735ed19c29\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ffb6a67829fa40d4c0493cb7e147e8f7\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\0d1a9c98c7596d60a130b82ff3e1130c\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\46988bf365f6f851b8bbe2afbd38550b\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ca252fa73e09636044a7852a7fb0d4dc\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\daf177656a92c215e84d6cc1989ab47b\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\336e4d7f5d818582899034e03216341f\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\e737982ea91fdf7ea321d344c75db0be\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\86f8c8e32c7613bbe5e86eb4377e9413\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\eaa1cbe2ef40ba62ba3fc8b8fb69519a\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\67aa86ef8808cac41aa5afe6d271f3ea\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\bcf856ddfeb04b3b73ed182739910d39\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\1e0614212b25f4ae67724a3587ed8129\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-36:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\41512b4504f05dfd2ce750ec25e73bcd\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4e0ff7aad1385c8eafbef14fa6566e88\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\15e7007103fd0fb0aff7e71304781500\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\300f257cde975cab11573178ec02d23c\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:17:1-42:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4b1c5806ae6e618a7651cc28fdb36868\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\6fa85db1e1558f9896d781a0c355dcc8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\24d3fed563afe068ea6b21c5a5c8b0bb\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\8f81228a7b33c63e5fb9d754f3d854c1\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\52902c56b1c0cfeccf8a69b751612b12\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\afa092e9e540cc6b6c665c352111ab3d\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\5b378433ca996256313ba1d0936b6565\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ddc11f3362db5ccdd67dd4bb84949082\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\acae96d266ee0f070095403500b2484b\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\91165b1d72c03395bb8790034f3dfc53\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ebcfcf51c8ddcba144c1495fc7af9d9a\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2de6736e958914630b801c473976dadb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3a5e16b2039f5d1ba6277155ba5487bb\fragment-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\c6dfa16628438a9961b24b05d2fbd8e8\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ce549e7c2ef848843590bed2de4a8cb5\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\578501f373506ad44461fdc4621e4ac6\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\c67e0a2827659171677214a347019603\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\978accf2e0bed0998c99b9b92f0480c6\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ce7284272958fc997430369a61fd8f68\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\69f57f624919df28a3b82e48160591c4\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4b83c652cd7f1fcb91b6f65ef89eb107\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\b48f8bfbe1eed47ae8d7f496fdfea43b\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\44227235bd8a357e62d50453f5426e56\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\18b9b66eb74c30e9e571305055ce1c02\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\705a33a93ef12f2fe8c35540fa1a0c40\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\38fd410662625f7cc8e8311d606df4fb\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\a58d01dcad068291159b6e36314cfa43\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\778fe2ee20fce1960cbe9f05fb248d1f\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2289612c2809393cb3ae28b2b0ba30d1\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f135ca78b533a596774f85285fa7d5a1\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\5000552b1ab541f916e62b739bb317d6\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f0c0faed7bd84d0f740bab7b326a40a6\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\c7af43979623978f72445a3eb10934e1\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-36:12
 	package
 		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:7:5-29:19
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\86e1e5d883ec66c1063a0d9a82a27792\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\86e1e5d883ec66c1063a0d9a82a27792\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\fee048776b4040c0a73e83e4303a6cff\material-1.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\fee048776b4040c0a73e83e4303a6cff\material-1.2.1\AndroidManifest.xml:22:5-20
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\db95b54e52e838ca6dc927129ccd5b36\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\db95b54e52e838ca6dc927129ccd5b36\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\67aa86ef8808cac41aa5afe6d271f3ea\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\67aa86ef8808cac41aa5afe6d271f3ea\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:7:5-34:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\41512b4504f05dfd2ce750ec25e73bcd\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\41512b4504f05dfd2ce750ec25e73bcd\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4e0ff7aad1385c8eafbef14fa6566e88\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4e0ff7aad1385c8eafbef14fa6566e88\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\300f257cde975cab11573178ec02d23c\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\300f257cde975cab11573178ec02d23c\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\acae96d266ee0f070095403500b2484b\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\acae96d266ee0f070095403500b2484b\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\91165b1d72c03395bb8790034f3dfc53\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\91165b1d72c03395bb8790034f3dfc53\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ebcfcf51c8ddcba144c1495fc7af9d9a\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ebcfcf51c8ddcba144c1495fc7af9d9a\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2de6736e958914630b801c473976dadb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2de6736e958914630b801c473976dadb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ce7284272958fc997430369a61fd8f68\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ce7284272958fc997430369a61fd8f68\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\5000552b1ab541f916e62b739bb317d6\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\5000552b1ab541f916e62b739bb317d6\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ce7284272958fc997430369a61fd8f68\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
@@ -85,108 +105,132 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ra
 		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.snake_battle.view.account.RegisterActivity
+ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:14:9-16:25
+	android:parentActivityName
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:15:13-84
+	android:name
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:14:19-64
 activity#com.example.snake_battle.view.scoreboard.ScoreBoardActivity
-ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:14:9-72
+ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:17:9-19:87
+	android:parentActivityName
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:19:13-84
 	android:name
-		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:14:19-69
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:18:13-63
 activity#com.example.snake_battle.view.inGame.InGameActivity
-ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:15:9-64
+ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:20:9-64
 	android:name
-		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:15:19-61
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:20:19-61
 activity#com.example.snake_battle.view.game_setup_main.NewGameActivity
-ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:16:9-18:83
+ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:21:9-23:83
 	android:parentActivityName
-		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:18:13-80
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:23:13-80
 	android:name
-		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:17:13-65
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:22:13-65
 activity#com.example.snake_battle.view.game_setup_main.GameTypeActivity
-ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:19:9-21:87
+ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:24:9-26:87
 	android:parentActivityName
-		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:21:13-84
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:26:13-84
 	android:name
-		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:20:13-66
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:25:13-66
 activity#com.example.snake_battle.view.game_setup_main.NicknameMainActivity
-ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:22:9-28:20
+ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:27:9-33:20
 	android:name
-		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:22:19-76
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:27:19-76
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml:31:27-74
 uses-sdk
 INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\86e1e5d883ec66c1063a0d9a82a27792\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\86e1e5d883ec66c1063a0d9a82a27792\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\fee048776b4040c0a73e83e4303a6cff\material-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\fee048776b4040c0a73e83e4303a6cff\material-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\bf96d2b5a86ecd602a621e7e96856420\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\bf96d2b5a86ecd602a621e7e96856420\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\db95b54e52e838ca6dc927129ccd5b36\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\db95b54e52e838ca6dc927129ccd5b36\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7c0677be8011741026309ef690a9f4db\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7c0677be8011741026309ef690a9f4db\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ee9b51f71825564f346013ea1d4d0318\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ee9b51f71825564f346013ea1d4d0318\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4c1ade53cc4b20d7bc631ac17d3bfca4\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4c1ade53cc4b20d7bc631ac17d3bfca4\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\e491b027066b482b439af311917e1339\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\e491b027066b482b439af311917e1339\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\0b3eeae4c45c19949f040ae2f0516871\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\0b3eeae4c45c19949f040ae2f0516871\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\32488318cfc756fa0f6ae91e625fa530\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\32488318cfc756fa0f6ae91e625fa530\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\0878a65179abd6a1b5016c6981bce614\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\0878a65179abd6a1b5016c6981bce614\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\65b26ec11e574f5d68d3fe93c8217bcb\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\65b26ec11e574f5d68d3fe93c8217bcb\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\65d4929e050083ea965101b359717f6c\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\65d4929e050083ea965101b359717f6c\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\6e57c04e98c372fcd8878b95a3d5645d\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\6e57c04e98c372fcd8878b95a3d5645d\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ebc8011c39d26c440b76466a9b971345\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ebc8011c39d26c440b76466a9b971345\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\d1ea25f3382273eed14315b543469208\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\d1ea25f3382273eed14315b543469208\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2118a7099009bdd29f0289728ee82c0d\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2118a7099009bdd29f0289728ee82c0d\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2d2a73585fe4f95076865d735ed19c29\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2d2a73585fe4f95076865d735ed19c29\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ffb6a67829fa40d4c0493cb7e147e8f7\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ffb6a67829fa40d4c0493cb7e147e8f7\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\0d1a9c98c7596d60a130b82ff3e1130c\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\0d1a9c98c7596d60a130b82ff3e1130c\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\46988bf365f6f851b8bbe2afbd38550b\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\46988bf365f6f851b8bbe2afbd38550b\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ca252fa73e09636044a7852a7fb0d4dc\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ca252fa73e09636044a7852a7fb0d4dc\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\daf177656a92c215e84d6cc1989ab47b\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\daf177656a92c215e84d6cc1989ab47b\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\336e4d7f5d818582899034e03216341f\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\336e4d7f5d818582899034e03216341f\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\e737982ea91fdf7ea321d344c75db0be\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\e737982ea91fdf7ea321d344c75db0be\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\86f8c8e32c7613bbe5e86eb4377e9413\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\86f8c8e32c7613bbe5e86eb4377e9413\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\eaa1cbe2ef40ba62ba3fc8b8fb69519a\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\eaa1cbe2ef40ba62ba3fc8b8fb69519a\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\67aa86ef8808cac41aa5afe6d271f3ea\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\67aa86ef8808cac41aa5afe6d271f3ea\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\bcf856ddfeb04b3b73ed182739910d39\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\bcf856ddfeb04b3b73ed182739910d39\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\1e0614212b25f4ae67724a3587ed8129\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\1e0614212b25f4ae67724a3587ed8129\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\41512b4504f05dfd2ce750ec25e73bcd\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\41512b4504f05dfd2ce750ec25e73bcd\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4e0ff7aad1385c8eafbef14fa6566e88\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4e0ff7aad1385c8eafbef14fa6566e88\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\15e7007103fd0fb0aff7e71304781500\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\15e7007103fd0fb0aff7e71304781500\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\300f257cde975cab11573178ec02d23c\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\300f257cde975cab11573178ec02d23c\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4b1c5806ae6e618a7651cc28fdb36868\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4b1c5806ae6e618a7651cc28fdb36868\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\6fa85db1e1558f9896d781a0c355dcc8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\6fa85db1e1558f9896d781a0c355dcc8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\24d3fed563afe068ea6b21c5a5c8b0bb\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\24d3fed563afe068ea6b21c5a5c8b0bb\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\8f81228a7b33c63e5fb9d754f3d854c1\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\8f81228a7b33c63e5fb9d754f3d854c1\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\52902c56b1c0cfeccf8a69b751612b12\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\52902c56b1c0cfeccf8a69b751612b12\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\afa092e9e540cc6b6c665c352111ab3d\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\afa092e9e540cc6b6c665c352111ab3d\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\5b378433ca996256313ba1d0936b6565\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\5b378433ca996256313ba1d0936b6565\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ddc11f3362db5ccdd67dd4bb84949082\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ddc11f3362db5ccdd67dd4bb84949082\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\acae96d266ee0f070095403500b2484b\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\acae96d266ee0f070095403500b2484b\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\91165b1d72c03395bb8790034f3dfc53\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\91165b1d72c03395bb8790034f3dfc53\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ebcfcf51c8ddcba144c1495fc7af9d9a\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ebcfcf51c8ddcba144c1495fc7af9d9a\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2de6736e958914630b801c473976dadb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2de6736e958914630b801c473976dadb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3a5e16b2039f5d1ba6277155ba5487bb\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3a5e16b2039f5d1ba6277155ba5487bb\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\c6dfa16628438a9961b24b05d2fbd8e8\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\c6dfa16628438a9961b24b05d2fbd8e8\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ce549e7c2ef848843590bed2de4a8cb5\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ce549e7c2ef848843590bed2de4a8cb5\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\578501f373506ad44461fdc4621e4ac6\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\578501f373506ad44461fdc4621e4ac6\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\c67e0a2827659171677214a347019603\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\c67e0a2827659171677214a347019603\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\978accf2e0bed0998c99b9b92f0480c6\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\978accf2e0bed0998c99b9b92f0480c6\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ce7284272958fc997430369a61fd8f68\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\ce7284272958fc997430369a61fd8f68\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\69f57f624919df28a3b82e48160591c4\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\69f57f624919df28a3b82e48160591c4\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4b83c652cd7f1fcb91b6f65ef89eb107\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\4b83c652cd7f1fcb91b6f65ef89eb107\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\b48f8bfbe1eed47ae8d7f496fdfea43b\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\b48f8bfbe1eed47ae8d7f496fdfea43b\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\44227235bd8a357e62d50453f5426e56\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\44227235bd8a357e62d50453f5426e56\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\18b9b66eb74c30e9e571305055ce1c02\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\18b9b66eb74c30e9e571305055ce1c02\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\705a33a93ef12f2fe8c35540fa1a0c40\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\705a33a93ef12f2fe8c35540fa1a0c40\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\38fd410662625f7cc8e8311d606df4fb\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\38fd410662625f7cc8e8311d606df4fb\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\a58d01dcad068291159b6e36314cfa43\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\a58d01dcad068291159b6e36314cfa43\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\778fe2ee20fce1960cbe9f05fb248d1f\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\778fe2ee20fce1960cbe9f05fb248d1f\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2289612c2809393cb3ae28b2b0ba30d1\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2289612c2809393cb3ae28b2b0ba30d1\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f135ca78b533a596774f85285fa7d5a1\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f135ca78b533a596774f85285fa7d5a1\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\5000552b1ab541f916e62b739bb317d6\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\5000552b1ab541f916e62b739bb317d6\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f0c0faed7bd84d0f740bab7b326a40a6\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f0c0faed7bd84d0f740bab7b326a40a6\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\c7af43979623978f72445a3eb10934e1\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\c7af43979623978f72445a3eb10934e1\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -197,13 +241,71 @@ INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\And
 		INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\rafal\OneDrive\Study\Android\SnakeBattle\app\src\main\AndroidManifest.xml
-provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
 	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:31:13-47
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\9bbe90967bd2012e5e0978d5e8b6eb11\jetified-firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\91165b1d72c03395bb8790034f3dfc53\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\91165b1d72c03395bb8790034f3dfc53\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\91165b1d72c03395bb8790034f3dfc53\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\91165b1d72c03395bb8790034f3dfc53\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\7fff84a8d516b083de156a21f4a0fd19\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2de6736e958914630b801c473976dadb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2de6736e958914630b801c473976dadb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\2de6736e958914630b801c473976dadb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafal\.gradle\caches\transforms-2\files-2.1\f7ecff1a015ce43af1623dd8fe9511b7\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79

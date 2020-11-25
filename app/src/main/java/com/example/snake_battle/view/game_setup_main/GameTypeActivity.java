@@ -30,6 +30,7 @@ public class GameTypeActivity extends AppCompatActivity {
         // toolbar
         toolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // view-model
         viewModel = GameSetupVM.getInstance();
@@ -59,7 +60,7 @@ public class GameTypeActivity extends AppCompatActivity {
 
     // menu
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_child, menu);
         return true;
     }
 

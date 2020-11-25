@@ -38,6 +38,7 @@ public class NewGameActivity extends AppCompatActivity {
         // menu
         toolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         //view-model
         viewModel = GameSetupVM.getInstance();
     }
@@ -46,7 +47,7 @@ public class NewGameActivity extends AppCompatActivity {
 
         switch (view.getId()) {
             case R.id.radio_small:
-                viewModel.setMapSize(15); // usage of scae in view.inGame.BoardView
+                viewModel.setMapSize(20); // usage of scae in view.inGame.BoardView
 
                 iland.setScaleX(0.5f);
                 iland.setScaleY(0.5f);
@@ -58,7 +59,7 @@ public class NewGameActivity extends AppCompatActivity {
                 iland.setScaleY(1);
                 break;
             case R.id.radio_large:
-                viewModel.setMapSize(5);
+                viewModel.setMapSize(8);
 
                 iland.setScaleX(1.5f);
                 iland.setScaleY(1.5f);
@@ -70,15 +71,15 @@ public class NewGameActivity extends AppCompatActivity {
     public void onRadioButtonClickedGameSpeed(View view) {
         switch ((view.getId())) {
             case R.id.radioSlow:
-                viewModel.setGameSpeed(-1);
+                viewModel.setGameSpeed(400);
                 break;
 
             case R.id.radioNormal:
-                viewModel.setGameSpeed(0);
+                viewModel.setGameSpeed(250);
                 break;
 
             case R.id.radioFast:
-                viewModel.setGameSpeed(1);
+                viewModel.setGameSpeed(150);
                 break;
         }
 
@@ -91,7 +92,7 @@ public class NewGameActivity extends AppCompatActivity {
             intent.putExtra(EXTRA_MAP_SIZE, viewModel.getMapSize());
             intent.putExtra(EXTRA_GAME_SPEED, viewModel.getGameSpeed());
 
-            startActivity(intent); // --------------- need to pass speed and mapSize to InGameActivity - getters in view model needed
+            startActivity(intent);
 
         } else {
             // create lobby stuff
@@ -101,7 +102,7 @@ public class NewGameActivity extends AppCompatActivity {
 
     //menu
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_child, menu);
         return true;
     }
 

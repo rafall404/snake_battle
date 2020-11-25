@@ -81,12 +81,13 @@ public class InGameActivity extends AppCompatActivity {
     }
 
     public void gameUpdaterInit(){
+        int gameUpdaterSpeed = viewModel.getGameSpeed();
         gameUpdater = new Thread(new Runnable() {
             @Override
             public void run() {
                 try {
                     while(true) {
-                        TimeUnit.MILLISECONDS.sleep(250);
+                        TimeUnit.MILLISECONDS.sleep(gameUpdaterSpeed);
                         viewModel.update();
                         boardView.invalidate();
                     }

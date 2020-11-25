@@ -11,12 +11,13 @@ public class Snake implements GameElement {
     private Board board;
 
     private int headDirection;
+
     /*
-      0=up
-      1=right
-      2=down
-      3=left
-      */
+          0=up
+          1=right
+          2=down
+          3=left
+          */
     private LinkedList<SegmentOfSnake> segments;
 
     private long lastUpdate = -1;
@@ -34,6 +35,13 @@ public class Snake implements GameElement {
         }
     }
 
+    public LinkedList<SegmentOfSnake> getSegments() {
+        return segments;
+    }
+
+    public int getHeadDirection() {
+        return headDirection;
+    }
     public void expand() {
         segments.add(new SegmentOfSnake(segments.getLast().getPoint()));
     }

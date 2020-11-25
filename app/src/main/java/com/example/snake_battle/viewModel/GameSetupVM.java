@@ -1,6 +1,9 @@
 package com.example.snake_battle.viewModel;
 
+import android.content.Intent;
+import android.graphics.Color;
 import android.util.Log;
+import android.widget.Toast;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -10,8 +13,9 @@ import com.example.snake_battle.model.domainModel.Joke;
 import com.example.snake_battle.nettworking.JokeResponse;
 import com.example.snake_battle.nettworking.JokesApi;
 import com.example.snake_battle.nettworking.ServiceGenerator;
+import com.example.snake_battle.view.game_setup_main.GameTypeActivity;
 
-import java.io.IOException;
+import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -23,7 +27,10 @@ public class GameSetupVM extends ViewModel {
 
     private static GameSetupVM instance = null; // TODO learn about Hilt and use incjection
 
-    private MutableLiveData<String> nickname;
+    private String nickname;
+
+
+    private MutableLiveData<Integer> helloTVColor;
 
     private String gameType;
     private int mapSize = 0;
@@ -42,8 +49,10 @@ public class GameSetupVM extends ViewModel {
     private Joke joke;
 
     private GameSetupVM(){
-        nickname =  new MutableLiveData<>();
-        nickname.setValue("");
+
+        helloTVColor = new MutableLiveData<Integer>();
+        changeColor();
+
         // REST GET request
         requestJoke();
     }
@@ -55,17 +64,21 @@ public class GameSetupVM extends ViewModel {
         return instance;
     }
 
-    public void setNickname(String s){
+
+    public void changeColor(){
+        Random rand = new Random();
         new Timer().schedule(new TimerTask() {
             @Override
             public void run() {
-                nickname.postValue(s);
+                Random rnd = new Random();
+                int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
+                helloTVColor.postValue(color);
             }
-        }, 0);
+        },0,2000);
     }
 
-    public LiveData<String> getNickname(){
-        return nickname;
+    public LiveData<Integer> getColor(){
+        return helloTVColor;
     }
 
     public void setMapSize(int mapSize) {
@@ -101,16 +114,14 @@ public class GameSetupVM extends ViewModel {
             @Override
             public void onResponse(Call<JokeResponse> call, Response<JokeResponse> response) {
                 if (response.code() == 200) {
-                    System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"+response.body().getJoke());
 
                     joke = response.body().getJoke();
-                    System.out.println(joke.getContent());
+
                 }
             }
             @Override
             public void onFailure(Call<JokeResponse> call, Throwable t) {
                 Log.i("Retrofit", "Something went wrong :(");
-                System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
 
                 throw new RuntimeException(t);
             }
@@ -121,5 +132,25 @@ public class GameSetupVM extends ViewModel {
         requestJoke();
         return joke;
     }
+    
+    public boolean validatenicknamename(){
+        boolean ifValid;
+        
+        if(nickname.equals("")){
+            ifValid = false;
+        } else if(nickname.contains(" ")){
+            ifValid = false;
+        }else{
+            ifValid = true;
+        }
+        return ifValid;
+    }
 
+    public String getNickname() {
+        return nickname;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
 }

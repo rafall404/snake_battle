@@ -32,6 +32,10 @@
         "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_soil_iland_mid.png"
     },
     {
+        "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_forward_24.xml.flat",
+        "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_forward_24.xml"
+    },
+    {
         "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
         "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
@@ -50,6 +54,10 @@
     {
         "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_soil_iland.png.flat",
         "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_soil_iland.png"
+    },
+    {
+        "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_downward_24.xml.flat",
+        "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_downward_24.xml"
     },
     {
         "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_soil_iland_large.png.flat",
@@ -92,6 +100,10 @@
         "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_soil_iland_large.png"
     },
     {
+        "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_24.xml"
+    },
+    {
         "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_worm.png.flat",
         "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\drawable\\black_worm.png"
     },
@@ -100,8 +112,16 @@
         "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_soil_iland_mid.png"
     },
     {
+        "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_child.xml.flat",
+        "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\menu\\menu_child.xml"
+    },
+    {
         "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_pobrane.png.flat",
+        "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\drawable-v24\\pobrane.png"
     },
     {
         "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_soil_iland_large.xml.flat",
@@ -120,6 +140,14 @@
         "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_img_329890.png.flat",
+        "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\drawable-v24\\img_329890.png"
+    },
+    {
         "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\layout_in_game.xml.flat",
         "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\layout\\in_game.xml"
     },
@@ -136,20 +164,20 @@
         "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_soil_iland_large.png.flat",
         "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_soil_iland_large.png"
     },
     {
-        "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_soil_iland_mid.xml.flat",
         "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_soil_iland_mid.xml"
+    },
+    {
+        "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -166,6 +194,10 @@
     {
         "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable_soil_background.png.flat",
         "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\drawable\\soil_background.png"
+    },
+    {
+        "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_click_me.png.flat",
+        "source": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\src\\main\\res\\drawable-v24\\click_me.png"
     },
     {
         "merged": "C:\\Users\\rafal\\OneDrive\\Study\\Android\\SnakeBattle\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_soil_iland.png.flat",

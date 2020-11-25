@@ -11,8 +11,8 @@ import java.util.List;
 
 public class InGameVM extends ViewModel {
 
-    private int mapScale; // 5-big, 10-medium, 15-small
-    private int gameSpeed;
+    private int mapScale; // 8-big, 10-medium, 20-small
+    private int gameSpeed; // 170-fast, 250-normal, 380-slow (speed is a delay)
 
     private Board board;
 
@@ -21,7 +21,7 @@ public class InGameVM extends ViewModel {
         mapScale = 10;
     }
 
-    // InGameActivity
+    // for InGameActivity
     public void addSnake(){
         board.addSnake(new Snake(1,50,50, 10,board));
     }
@@ -38,7 +38,7 @@ public class InGameVM extends ViewModel {
         this.gameSpeed = gameSpeed;
     }
 
-    //BoardView
+    //for BoardView
     public List<GameElement> getGameElements(){
         return board.getGameElements();
     }

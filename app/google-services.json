@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "600491731726",
+    "firebase_url": "https://snake-e8421.firebaseio.com",
+    "project_id": "snake-e8421",
+    "storage_bucket": "snake-e8421.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600491731726:android:8c731db9b2fc9e36db855f",
+        "android_client_info": {
+          "package_name": "com.example.snake_battle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600491731726-i0b46ooqag9nqem12j4ec7p3g6oj2k60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAltDyKdfZnoJeDnfvFkvM7nPBfMVlSCAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600491731726-i0b46ooqag9nqem12j4ec7p3g6oj2k60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
